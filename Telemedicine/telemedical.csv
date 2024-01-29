@@ -1,0 +1,101 @@
+PatientID,Age,Gender,Medical Condition,Other Demographics,Tech Access
+01,39,M,Chronic Arthritis,Rural,Uninsured,Smartphone,Limited Internet
+02,75,F,Asthma,Suburban,Public Insurance,Tablet,Decent Internet
+03,12,M,High Cholesterol,Urban,Private Insurance,Laptop,Good Internet
+04,53,F,Chronic Skin Condition,Rural,Medicare,Basic Phone,No Internet
+05,26,M,Depression,Suburban,Uninsured,Smartphone,Good Internet
+06,82,F,Migraines,Urban,Public Insurance,Laptop,Fast Internet
+07,40,M,ADHD,Suburban,Private Insurance,Tablet,Reliable Internet
+08,57,F,Hypertension,Rural,Medicare,Basic Phone,No Internet
+09,21,M,Chronic Back Pain,Urban,Uninsured,Laptop,Decent Internet
+10,60,F,Anxiety Disorder,Suburban,Public Insurance,Tablet,Good Internet
+11,45,M,Diabetes,Rural,Private Insurance,Basic Phone,Limited Internet
+12,37,F,Chronic Arthritis,Urban,Medicare,Laptop,Good Internet
+13,70,M,High Cholesterol,Suburban,Uninsured,Tablet,Fast Internet
+14,15,F,Asthma,Rural,Public Insurance,Smartphone,Reliable Internet
+15,54,M,Depression,Urban,Private Insurance,Basic Phone,No Internet
+16,79,F,Migraines,Suburban,Medicare,Laptop,Decent Internet
+17,41,M,ADHD,Rural,Uninsured,Tablet,Good Internet
+18,58,F,Hypertension,Urban,Public Insurance,Basic Phone,Limited Internet
+19,20,M,Chronic Back Pain,Suburban,Private Insurance,Laptop,Good Internet
+20,63,F,Anxiety Disorder,Rural,Medicare,Tablet,Fast Internet
+21,48,M,Diabetes,Urban,Uninsured,Basic Phone,Reliable Internet
+22,38,F,Chronic Arthritis,Suburban,Public Insurance,Laptop,No Internet
+23,72,M,High Cholesterol,Rural,Private Insurance,Tablet,Decent Internet
+24,16,F,Asthma,Urban,Medicare,Basic Phone,Good Internet
+25,56,M,Depression,Suburban,Uninsured,Laptop,Limited Internet
+26,81,F,Migraines,Rural,Public Insurance,Tablet,Good Internet
+27,43,M,ADHD,Urban,Private Insurance,Basic Phone,Fast Internet
+28,59,F,Hypertension,Suburban,Medicare,Laptop,Reliable Internet
+29,22,M,Chronic Back Pain,Rural,Uninsured,Tablet,No Internet
+30,66,F,Anxiety Disorder,Urban,Public Insurance,Basic Phone,Good Internet
+31,52,M,Diabetes,Suburban,Private Insurance,Laptop,Limited Internet
+32,39,F,Chronic Arthritis,Rural,Medicare,Tablet,Good Internet
+33,73,M,High Cholesterol,Urban,Uninsured,Basic Phone,Fast Internet
+34,17,F,Asthma,Suburban,Public Insurance,Laptop,Reliable Internet
+35,57,M,Depression,Rural,Private Insurance,Tablet,No Internet
+36,83,F,Migraines,Urban,Medicare,Basic Phone,Good Internet
+37,44,M,ADHD,Suburban,Uninsured,Laptop,Limited Internet
+38,61,F,Hypertension,Rural,Public Insurance,Tablet,Good Internet
+39,23,M,Chronic Back Pain,Urban,Private Insurance,Basic Phone,Fast Internet
+40,68,F,Anxiety Disorder,Suburban,Medicare,Laptop,Reliable Internet
+41,55,M,Diabetes,Rural,Uninsured,Tablet,No Internet
+42,42,F,Chronic Arthritis,Urban,Public Insurance,Basic Phone,Good Internet
+43,76,M,High Cholesterol,Suburban,Private Insurance,Laptop,Limited Internet
+44,18,F,Asthma,Rural,Medicare,Tablet,Good Internet
+45,62,M,Depression,Urban,Uninsured,Basic Phone,Fast Internet
+46,84,F,Migraines,Suburban,Public Insurance,Laptop,Reliable Internet
+47,49,M,Chronic Skin Condition,Urban,Public Insurance,Smartphone,Good Internet
+48,30,F,Anxiety Disorder,Suburban,Uninsured,Basic Phone,Limited Internet
+49,50,F,Chronic Back Pain,Suburban,Public Insurance,Tablet,Decent Internet
+50,25,M,Anxiety Disorder,Rural,Private Insurance,Smartphone,Limited Internet
+51,81,F,Diabetes,Urban,Medicare,Basic Phone,No Internet
+52,16,M,Asthma,Suburban,Uninsured,Laptop,Good Internet
+53,37,F,Migraines,Rural,Public Insurance,Tablet,Fast Internet
+54,66,M,Chronic Arthritis,Urban,Private Insurance,Smartphone,Reliable Internet
+55,49,F,Depression,Suburban,Medicare,Basic Phone,No Internet
+56,69,M,High Cholesterol,Rural,Uninsured,Laptop,Decent Internet
+57,14,F,ADHD,Urban,Private Insurance,Tablet,Good Internet
+58,50,M,Chronic Skin Condition,Suburban,Public Insurance,Basic Phone,No Internet
+59,72,F,Chronic Back Pain,Rural,Private Insurance,Smartphone,Limited Internet
+60,23,M,Anxiety Disorder,Urban,Medicare,Laptop,Good Internet
+61,55,F,Diabetes,Suburban,Uninsured,Tablet,Fast Internet
+62,44,M,Chronic Arthritis,Rural,Public Insurance,Basic Phone,Reliable Internet
+63,36,F,Depression,Urban,Private Insurance,Laptop,No Internet
+64,68,M,High Cholesterol,Suburban,Medicare,Tablet,Decent Internet
+65,18,F,ADHD,Rural,Uninsured,Smartphone,Good Internet
+66,48,M,Chronic Skin Condition,Urban,Public Insurance,Basic Phone,Limited Internet
+67,70,F,Chronic Back Pain,Suburban,Private Insurance,Laptop,Good Internet
+68,24,M,Anxiety Disorder,Rural,Medicare,Tablet,Fast Internet
+69,60,F,Diabetes,Urban,Uninsured,Basic Phone,Reliable Internet
+70,51,M,Chronic Arthritis,Suburban,Public Insurance,Laptop,No Internet
+71,43,F,Depression,Rural,Private Insurance,Tablet,Decent Internet
+72,77,M,High Cholesterol,Urban,Medicare,Basic Phone,Good Internet
+73,19,F,ADHD,Suburban,Uninsured,Laptop,Limited Internet
+74,58,M,Chronic Skin Condition,Rural,Public Insurance,Smartphone,Good Internet
+75,69,F,Chronic Back Pain,Urban,Private Insurance,Laptop,Fast Internet
+76,27,M,Anxiety Disorder,Suburban,Medicare,Tablet,Reliable Internet
+77,57,F,Migraines,Suburban,Uninsured,Smartphone,Limited Internet
+78,33,M,Chronic Back Pain,Rural,Public Insurance,Laptop,Good Internet
+79,74,F,Hypertension,Urban,Private Insurance,Basic Phone,No Internet
+80,11,M,Asthma,Suburban,Medicare,Tablet,Decent Internet
+81,40,F,Depression,Rural,Uninsured,Smartphone,Good Internet
+82,63,M,Chronic Arthritis,Urban,Public Insurance,Laptop,Fast Internet
+83,55,F,High Cholesterol,Suburban,Private Insurance,Basic Phone,Reliable Internet
+84,32,M,Chronic Skin Condition,Rural,Medicare,Tablet,No Internet
+85,29,F,Anxiety Disorder,Urban,Uninsured,Laptop,Decent Internet
+86,67,M,Diabetes,Suburban,Public Insurance,Tablet,Good Internet
+87,42,F,ADHD,Rural,Private Insurance,Basic Phone,Limited Internet
+88,59,M,Migraines,Urban,Medicare,Laptop,Good Internet
+89,35,F,Chronic Back Pain,Suburban,Uninsured,Tablet,Fast Internet
+90,28,M,Hypertension,Rural,Public Insurance,Smartphone,Reliable Internet
+91,70,F,Asthma,Urban,Private Insurance,Basic Phone,No Internet
+92,17,M,Depression,Suburban,Medicare,Laptop,Decent Internet
+93,45,F,Chronic Arthritis,Rural,Uninsured,Tablet,Good Internet
+94,64,M,High Cholesterol,Urban,Public Insurance,Basic Phone,Limited Internet
+95,53,F,Chronic Skin Condition,Suburban,Private Insurance,Laptop,Good Internet
+96,38,M,Anxiety Disorder,Rural,Medicare,Tablet,Fast Internet
+97,71,F,Diabetes,Urban,Uninsured,Smartphone,Reliable Internet
+98,46,F,ADHD,Suburban,Public Insurance,Basic Phone,No Internet
+99,31,M,Migraines,Rural,Private Insurance,Laptop,Decent Internet
+100,65,M,Chronic Back Pain,Urban,Medicare,Tablet,Good Internet
