@@ -1,0 +1,361 @@
+body{
+    margin: 0px;
+    height: 3000px;
+    padding-top: 75px;
+    padding-left: 85px;
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(239, 239, 239);
+    z-index: 100;
+}
+.leftEnd{
+    width: 170px;
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+}
+.threeline{
+    width: 25px;
+    margin-left: 25px;
+}
+.youtube-logo{
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: 2px;
+    width: 100px;
+}
+.centreEnd{
+    flex:1;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 100px;
+    /*Max-Width is used to control how much the section expands when size of browser is changed*/
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    flex: 1;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(186, 185, 185);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 15px rgba(0,0,0,0.05);
+    outline: none;
+    width: 0px;
+}
+.search-bar::placeholder{
+    font-family: "Roboto",arial;
+    font-size: 16px;
+}
+.s-button{
+    position: relative;
+}
+.s-button .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    left: 10px;
+    bottom: -25px;
+}
+.search-button{
+    height: 33.5px;
+    width: 60px;
+    margin-left: -2px;
+    margin-right: 10px; 
+    background-color: rgb(248, 246, 246);
+    border-width: 0.2px;
+    border-color: rgb(184, 183, 183);
+}
+.s-button:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.search-button-pic{
+    width: 20px;
+    height: 20px;
+}
+.search-voice{
+    position: relative;
+}
+.search-voice .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 70px;
+    pointer-events: none;
+    left: 10px;
+    bottom: -25px;
+    opacity: 0;
+}
+.search-voice:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.search-voice{
+    height: 40px;
+    width: 42px;
+    border-radius: 30px;
+    border-width: 0px;
+}
+.search-voice-pic{
+    width: 20px;
+    height: 20px;
+    border-width: 0px;
+}
+
+.rightEnd{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    vertical-align: center;
+    padding-left: 25px;
+    padding-right: -100px;
+    margin-right: 0px;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+.upload-div{
+    position: relative;
+}
+.upload-div .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.upload-div:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.upload-button{
+    width: 30px;
+    margin-right: 40px;
+}
+.other-div{
+    position: relative;
+}
+.other-div .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.other-div:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.other-apps{
+    width: 30px;
+    margin-right: 40px;
+}
+.notif-div{
+    position: relative;
+}
+.notif-num{
+    position: absolute;
+    background-color: red;
+    width: 12px;
+    height: 15px;
+    padding-left: 6px;
+    padding-top: 2px;
+    border-radius: 1000px;
+    font-family: "Roboto",Arial;
+    font-size: 10px;
+    top: 0px;
+    right: 38px;
+    color: white;
+}
+.notif-div .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    opacity: 0;
+    right: 10px;
+    pointer-events: none;
+}
+.notif-div:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.notification{
+    width: 30px;
+    margin-right: 40px;
+}
+.mychannel-div{
+    position: relative;
+}
+.mychannel-div .tooltip{
+    position: absolute;
+    background-color: gray;
+    padding: 4px;
+    width: 60px;
+    opacity: 0;
+    font-size: 12px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.my-channel{
+    width: 30px;
+}
+.mychannel-div:hover .tooltip{
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+
+
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 55px;
+    left: 0px;
+    bottom: 0px;
+    width: 72px;
+    row-gap: 0px;
+    padding-top: 20px;
+    align-items: center;
+    border-right-width: 1px;
+    border-right-width: solid;
+    border-right-color: gray;
+}
+.sidecomp{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    row-gap: 0px;
+    width: 55px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.sidecomp:hover{
+    background-color: rgb(231, 230, 230);
+}
+.sideicons{
+    width: 25px;
+    height: 25px; 
+    vertical-align: middle;
+}
+.iconname{
+    font-size: 8px;
+}
+
+
+
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.video{
+    vertical-align: top;
+    margin-right: 10px;
+}
+.main-post-pic{
+    /*width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-fit: contain;
+    border-width: 2px
+    Above code is just a demonstration*/
+    width: 100%;
+    /*Setting the width to 300px and not defining anything else automatically sets the height of the image to ensure there is no loss of image properties*/
+}
+.video-main-pic{
+    position: relative;
+}
+.timestamp{
+    font-family: "Roboto",Arial;
+    position: absolute;
+    background-color: black;
+    font-size: 12px;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 2px;
+    padding: 5px;
+}
+p{
+    font-family:"Roboto",Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.pic-text-info-grid{
+    display: grid;
+    grid-template-columns: 50px 250px;
+    margin-top: 2px;
+}
+.pic-info{
+    vertical-align: top;
+}
+.channel-pic{
+    width: 40px;
+    border-radius: 100px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.text-info{
+    line-height: 20px;
+    width: 250px;
+}
+.video-title{
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.video-author{
+    opacity: 0.8;
+    font-size: 12px;
+}
+.video-info{
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
