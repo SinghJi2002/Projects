@@ -2,6 +2,7 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
+import keras
 
 model = load_model('model.keras')
 img_width=150
