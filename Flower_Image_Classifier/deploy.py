@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 import numpy as np
 
-model = load_model('model.h5')
+model = load_model('model.keras')
 img_width=150
 img_height=150
 class_names={0: 'daisy', 1: 'dandelion', 2: 'roses', 3: 'sunflowers', 4: 'tulips'}
